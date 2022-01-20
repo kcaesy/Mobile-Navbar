@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:100,200,300,400,500,600,700,800,900'); 
-*{margin:0;padding:0;box-sizing:border-box;font-family:'poppins',san-serif}
-:root{--clr:#222327}
+*{margin:0; padding:0; box-sizing:border-box; font-family:'poppins',san-serif}
+:root{--clr: #222327}
 body{
   min-height:100vh;
   display:flex;
   justify-content:center;
-  align-item:center;
+  align-items:center;
   background:var(--clr)
 }
 .navigation{
@@ -13,5 +13,29 @@ body{
   width:400px;
   height:70px;
   background:#fff;
-  dipslay:flex;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.navigation ul{
+  display: flex;
+  width: 350px;
+}
+.navigation ul li{
+  position: relative;
+  list-style: none;
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+}
+.navigation ul li a{
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
 }
