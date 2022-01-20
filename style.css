@@ -39,3 +39,12 @@ body{
   text-align: center;
   font-weight: 500;
 }
+.navigation ul li a .icon{
+  position: relative;
+  display: block;
+  line-height: 75px;
+  font-size: 1.5em;
+  text-align: center;
+  transition: 0.5ms;
+  color: var(--clr);
+}
