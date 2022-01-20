@@ -48,3 +48,6 @@ body{
   transition: 0.5ms;
   color: var(--clr);
 }
+.navigation ul li:hover a .icon{
+  transform: translateY(-35px);
+}
