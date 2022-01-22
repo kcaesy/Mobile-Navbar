@@ -7,16 +7,25 @@
     <link rel="stylesheet" href="style.css" type='text/css'/>
   </head>
   <body>
-      <div class='navigation'>
+    <nav class="navbar fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        Dashboard
+        <a class="navbar-brand pull-right" href="#">
+          <img src="./images/2.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+        </a>
+      </div>
+    </nav>
+
+    <section>
+      <div class="card">
+        <div class="card-body">
+          This is some text within a card body.
+        </div>
+      </div>
+    </section>
+
+    <div class='navigation'>
         <ul>
-          <li class='list active'>
-            <a href='#'>
-              <span class='icon'>
-								<i class="fa fa-home"></i>
-							</span>
-              <span class='text'>Home</span>
-            </a>
-          </li>
           <li class='list'>
             <a href='#'>
               <span class='icon'>
@@ -31,6 +40,14 @@
 								<i class="fa fa-comment-alt"></i>
 							</span>
               <span class='text'>Message</span>
+            </a>
+          </li>
+          <li class='list active'>
+            <a href='#'>
+              <span class='icon'>
+								<i class="fa fa-home"></i>
+							</span>
+              <span class='text'>Home</span>
             </a>
           </li>
           <li class='list'>
@@ -51,7 +68,7 @@
           </li>
           <div class="indicator"></div>
         </ul>
-      </div>
+    </div>
   </body>
   <!-- javascript plugin -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
