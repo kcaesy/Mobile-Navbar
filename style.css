@@ -5,7 +5,16 @@
 ol, ul {
   padding-left: 0rem;
 }
-:root{--clr: #222327; --trans: transparent}
+:root{
+  --clr: #222327; 
+  --trans: transparent;
+  --color-1: #B2002D;
+  --color-2: #EEE8A9;
+  --color-3: #FFC75F;
+
+
+
+}
 body{
   min-height:100vh;
   display:flex;
@@ -129,7 +138,7 @@ body{
   right: unset;
 }
 .container{
-  background: #c0cde9;
+  background: #ebeef6;
   width: 364px;
   /* color: #fff; */
   padding-top: 70px;
@@ -141,6 +150,28 @@ body{
   overflow: hidden;
   /* background-color: cyan; */
 }
+.h180{
+  min-height: 180px;
+  border-radius: 15px;
+  overflow: hidden;
+  /* background-color: cyan; */
+}
+.bal-card{
+  height: 200px;
+  overflow: hidden;
+  background-position: center;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.transaction{
+  font-size:0.7rem ;
+}
+.fs-7{font-size:0.5rem ;}
+.fs-8{font-size:0.7rem ;}
+.posbottom{position: absolute; bottom:0 ;}
+.posbottom-33{position: absolute; bottom:35px ;}
+.owl-dot{display: none!important;}
 
 
 .navigation ul li:nth-child(1).active ~ .indicator{
